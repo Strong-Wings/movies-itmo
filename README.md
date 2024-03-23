@@ -5,27 +5,27 @@
 - GET /api/movies
  
 - Получение всех фильмов
-  ![img.png](img.png)
+  ![img.png](img/img.png)
 
 - GET /api/movies/{id}
   
   Получение фильма по id
-  ![img_1.png](img_1.png)
+  ![img_1.png](img/img_1.png)
 
 - POST /api/movies
   
   Создание фильма
-  ![img_2.png](img_2.png)
+  ![img_2.png](img/img_2.png)
 
 - PATCH /api/movies/{id}
 
   Обновление фильма
-  ![img_3.png](img_3.png)
+  ![img_3.png](img/img_3.png)
 
 - DELETE /api/movies/{id}
 
   Удаление фильма
-  ![img_4.png](img_4.png)
+  ![img_4.png](img/img_4.png)
 
 
 Аналогичные эндпоинты для директоров:
@@ -38,10 +38,10 @@
 
 Обработка ошибок и хэндлинг исключений:
 - Пример 400
-![img_5.png](img_5.png)
+![img_5.png](img/img_5.png)
 Причем все ошибки конкатенируются и видны все неправильно заполненные поля
 - Пример 404
-![img_6.png](img_6.png)
+![img_6.png](img/img_6.png)
 
 
 Конфигурация в файле пропертей:
@@ -58,4 +58,4 @@
 - com/itmo/movies/controller/DirectorControllerTest.java
 - com/itmo/movies/controller/MovieControllerTest.java
 
-![tests.png](tests.png)
+![tests.png](img/tests.png)
